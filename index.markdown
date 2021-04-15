@@ -17,44 +17,50 @@ title: Parson's Problems
     <input id="p1-feedbackLink" value="Get Feedback" type="button" />
     <input id="p1-newInstanceLink" value="Reset Problem" type="button" />
 </p>
-
-<div id="sortableTrash" class="sortable-code"></div> 
-<div id="sortable" class="sortable-code"></div> 
+---
+Change below
+---
+<div id="Activity 1-sortableTrash" class="sortable-code"></div> 
+<div id="Activity 1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="Activity 1-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Activity 1-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "int lightLevel = 0;\n" +
-    "void setup()\n" +
+  var initial = "void setup ()\n" +
     "{\n" +
     "  Serial.begin(9600);\n" +
     "}\n" +
     "void loop()\n" +
     "{\n" +
-    "lightLevel = analogRead(A0);\n" +
-    "  Serial.print(&quot;Light level: &quot;);\n" +
-    "  Serial.println(lightLevel);\n" +
+    "while (true)\n" +
+    "  {\n" +
+    "  Serial.println(&quot;test&quot;);\n" +
     "  delay(1000);\n" +
-    "}";
+    "  }\n" +
+    "}\n" +
+    "while (false) #distractor\n" +
+    "void set up () #distractor\n" +
+    "  Serial.begin(9600) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "sortable",
+    "sortableId": "Activity 1-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
-    "lang": "en"
+    "lang": "en",
+    "trashId": "Activity 1-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#newInstanceLink").click(function(event){ 
+  $("#Activity 1-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#feedbackLink").click(function(event){ 
+  $("#Activity 1-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
