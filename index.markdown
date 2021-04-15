@@ -19,6 +19,8 @@ title: Parson's Problems
 </p>
 ---
 Change below
+
+Generator is at : https://codio.github.io/parsons-puzzle-ui/dist/
 ---
 <div id="Activity 1-sortableTrash" class="sortable-code"></div> 
 <div id="Activity 1-sortable" class="sortable-code"></div> 
