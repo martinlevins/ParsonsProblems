@@ -18,7 +18,8 @@ title: Parson's Problems
     <input id="p1-newInstanceLink" value="Reset Problem" type="button" />
 </p>
 
-[comment]: # Change below Generator is at : https://codio.github.io/parsons-puzzle-ui/dist/
+<!--- Change below Generator is at : https://codio.github.io/parsons-puzzle-ui/dist/
+--->
 
 <div id="Activity 1-sortableTrash" class="sortable-code"></div> 
 <div id="Activity 1-sortable" class="sortable-code"></div> 
