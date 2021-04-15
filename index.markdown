@@ -8,7 +8,7 @@ title: Parson's Problems
 # Parsons Practice
 
 ## Parsons 1 (Line Based Grader)
-Re-arrange the blocks below so they print out "Hello World!"
+## Re-arrange the blocks below so they print out "Hello World!"
 
 <div id="p1-sortableTrash" class="sortable-code"></div>
 <div id="p1-sortable" class="sortable-code"></div>
