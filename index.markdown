@@ -9,15 +9,13 @@ title: Parson's Problems
 
 ## Parsons 1 (Line Based Grader)
 ## Re-arrange the blocks below so they satisfy the requirements for Activity 1
-
-<div id="p1-sortableTrash" class="sortable-code"></div>
-<div id="p1-sortable" class="sortable-code"></div>
-<div style="clear:both;"></div>
-<p>
-    <input id="p1-feedbackLink" value="Get Feedback" type="button" />
-    <input id="p1-newInstanceLink" value="Reset Problem" type="button" />
-</p>
-
+<div id="Activity 1-sortableTrash" class="sortable-code"></div> 
+<div id="Activity 1-sortable" class="sortable-code"></div> 
+<div style="clear:both;"></div> 
+<p> 
+    <input id="Activity 1-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="Activity 1-newInstanceLink" value="Reset Problem" type="button" /> 
+</p> 
 <script type="text/javascript"> 
 (function(){
   var initial = "void setup ()\n" +
@@ -32,9 +30,9 @@ title: Parson's Problems
     "  delay(1000);\n" +
     "  }\n" +
     "}\n" +
-    "while (false) #distractor\n" +
-    "void set up () #distractor\n" +
-    "  Serial.begin(9600) #distractor";
+    "  Serial.println(&quot;test&quot;) #distractor\n" +
+    "  while (True) #distractor\n" +
+    "  Serial.Println(&quot;test&quot;) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "Activity 1-sortable",
     "max_wrong_lines": 10,
