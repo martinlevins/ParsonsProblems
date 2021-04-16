@@ -8,7 +8,8 @@ title: Multiple Parson's Problems on One Page
 # Parsons Practice
 
 ## Parsons 1 (Line Based Grader)
-Re-arrange the blocks below so they will work for Activity 1 ACARA
+Re-arrange the blocks below so they will work for Activity 1
+If a block is incorrect, drag back into the left hand side stack
 
 <div id="A1-sortableTrash" class="sortable-code"></div> 
 <div id="A1-sortable" class="sortable-code"></div> 
