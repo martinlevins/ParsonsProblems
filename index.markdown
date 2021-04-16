@@ -19,9 +19,7 @@ title: Parson's Problems
 </p>
 
 <!--- Change below here
-
 Generator is at : https://codio.github.io/parsons-puzzle-ui/dist/
-
 --->
 
 <script type="text/javascript"> 
