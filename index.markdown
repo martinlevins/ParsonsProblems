@@ -57,5 +57,3 @@ title: Parson's Problems
   }); 
 })(); 
 </script>
-
-
