@@ -18,10 +18,6 @@ title: Parson's Problems
     <input id="p1-newInstanceLink" value="Reset Problem" type="button" />
 </p>
 
-<!--- Change below here
-Generator is at : https://codio.github.io/parsons-puzzle-ui/dist/
---->
-
 <script type="text/javascript"> 
 (function(){
   var initial = "void setup ()\n" +
