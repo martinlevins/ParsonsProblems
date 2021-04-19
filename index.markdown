@@ -60,4 +60,4 @@ If a block is incorrect, drag back into the left hand side stack
 </script>
 
 ### Example Next Link
-[Next](./parsons/test.markdown)
+[Next](./test.markdown)
