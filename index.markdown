@@ -59,5 +59,5 @@ If a block is incorrect, drag back into the left hand side stack
 })(); 
 </script>
 
-### Example Next Link
-[Next](./test.markdown)
+### Next Link
+[Next](./parsons/activity2.html)
