@@ -7,8 +7,8 @@ title: Multiple Parson's Problems on One Page
 ---
 # Second Parsons Practice page
 
-## Parsons 1 (Line Based Grader)
-Re-arrange the blocks below so they will work for Activity 1
+## Parsons 2 (Line Based Grader)
+Re-arrange the blocks below so they will work for Activity 2
 
 If a block is incorrect, drag back into the left hand side stack
 
@@ -24,24 +24,24 @@ If a block is incorrect, drag back into the left hand side stack
   var initial = "int lightLevel = 0;\n" +
     "void setup()\n" +
     "{\n" +
-    "Serial.begin(9600);\n" +
+    "  Serial.begin(9600);\n" +
     "}\n" +
     "void loop()\n" +
     "{\n" +
-    "lightLevel = analogRead(A0);\n" +
-    "Serial.print(&quot;Light level: &quot;);\n" +
-    "Serial.println(lightLevel);\n" +
-    "delay(1000); \n" +
+    "  lightLevel = analogRead(A0);\n" +
+    "  Serial.print(&quot;Light level: &quot;);\n" +
+    "  Serial.println(lightLevel);\n" +
+    "  delay(1000);\n" +
     "}\n" +
     "  Serial.println(lightlevel); #distractor\n" +
-    "  int lightLevel = 0 #distractor\n" +
-    "  void Setup() #distractor";
+    "  Serial.print(&quot;light level: &quot;); #distractor\n" +
+    "  lightLevel = analogRead(A0) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "A1-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": false,
+    "can_indent": true,
     "x_indent": 50,
     "lang": "en",
     "trashId": "A1-sortableTrash"
