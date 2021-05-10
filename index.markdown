@@ -59,5 +59,5 @@ If a block is incorrect, drag back into the left hand side stack
 })(); 
 </script>
 
-### Next Link
+### Link to Activity 2
 [Next](./parsons/activity2.html)
