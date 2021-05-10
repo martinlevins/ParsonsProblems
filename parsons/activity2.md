@@ -60,4 +60,4 @@ If a block is incorrect, drag back into the left hand side stack
 </script>
 
 ### Link to Activity 3
-[Next](./parsons/activity3.html)
+[Next](./activity3.html)
