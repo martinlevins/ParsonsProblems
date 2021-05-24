@@ -60,4 +60,4 @@ If a block is incorrect, drag back into the left hand side stack
 </script>
 
 ### Link to Activity 3
-[Next](activity3.html)
+[Next]https://martinlevins.github.io/ParsonsProblems/parsons/activity2.html
