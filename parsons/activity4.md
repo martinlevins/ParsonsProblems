@@ -5,10 +5,10 @@
 layout: default
 title: Multiple Parson's Problems on One Page
 ---
-# Second Parsons Practice page
+# Third Parsons Practice page
 
-## Parsons 3 (Line Based Grader)
-Re-arrange the blocks below so they will work for Activity 3
+## Activity 4 (Line Based Grader)
+Re-arrange the blocks below so they will work for Activity 4
 
 If a block is incorrect, drag back into the left hand side stack
 <div id="sortableTrash" class="sortable-code"></div> 
